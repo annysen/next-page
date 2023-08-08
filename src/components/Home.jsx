@@ -31,7 +31,7 @@ const Home = () => {
           </p>
         </div>
         {/* btn section  */}
-        <div className="mt-4 flex flex-col md:flex-row items-center space-x-3 ">
+        <div className="mt-4  flex-col md:flex-row md:items-center inline-flex space-x-3 ">
           <Link
             to="/books"
             className="inline-flex items-center h-12 px-6 mb-3 rounded bg-violet-600 hover:bg-violet-800 duration-500 md:w-auto"

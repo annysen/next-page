@@ -9,7 +9,7 @@ import { Link, NavLink } from "react-router-dom";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="bg-gray-200 p-4 mx-auto md:max-w-screen-xl ">
+    <nav className="bg-gray-200 p-4 mx-auto md:max-w-screen-xl sticky top-0 ">
       <div className="flex justify-between items-center">
         {/* icon and title  */}
         <Link to="/" className="flex items-center">
