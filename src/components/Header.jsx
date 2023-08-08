@@ -13,7 +13,7 @@ const Header = () => {
       <div className="flex justify-between items-center">
         {/* icon and title  */}
         <Link to="/" className="flex items-center">
-          <BoltIcon className="w-6 h-6 text-blue-600" />
+          <BoltIcon className="w-6 h-6 text-violet-600" />
           <span className="text-2xl ml-2 font-bold ">nextPage</span>
         </Link>
 
@@ -22,7 +22,7 @@ const Header = () => {
           <li>
             <NavLink
               to="/"
-              className={({ isActive }) => (isActive ? "text-blue-600" : "")}
+              className={({ isActive }) => (isActive ? "text-violet-600" : "")}
             >
               Home
             </NavLink>
@@ -30,7 +30,7 @@ const Header = () => {
           <li>
             <NavLink
               to="/books"
-              className={({ isActive }) => (isActive ? "text-blue-600" : "")}
+              className={({ isActive }) => (isActive ? "text-violet-600" : "")}
             >
               Books
             </NavLink>
@@ -38,7 +38,7 @@ const Header = () => {
           <li>
             <NavLink
               to="/about"
-              className={({ isActive }) => (isActive ? "text-blue-600" : "")}
+              className={({ isActive }) => (isActive ? "text-violet-600" : "")}
             >
               About
             </NavLink>
@@ -53,14 +53,14 @@ const Header = () => {
           </button>
 
           {isOpen && (
-            <div className=" top-0 left-0 w-full z-10 absolute">
-              <div className="bg-gray-300 p-4">
+            <div className=" top-0 left-0 w-full z-10 absolute  ">
+              <div className="bg-gray-300  p-4">
                 {/* logo and cross btn  */}
                 <div className="flex justify-between items-center">
                   {/* icon and title  */}
                   <div>
                     <Link to="/" className="flex items-center">
-                      <BoltIcon className="w-6 h-6 text-blue-600" />
+                      <BoltIcon className="w-6 h-6 text-violet-600" />
                       <span className="text-2xl ml-2 font-bold ">nextPage</span>
                     </Link>
                   </div>
@@ -79,7 +79,7 @@ const Header = () => {
                       <NavLink
                         to="/"
                         className={({ isActive }) =>
-                          isActive ? "text-blue-600" : ""
+                          isActive ? "text-violet-600" : ""
                         }
                       >
                         Home
@@ -89,7 +89,7 @@ const Header = () => {
                       <NavLink
                         to="/books"
                         className={({ isActive }) =>
-                          isActive ? "text-blue-600" : ""
+                          isActive ? "text-violet-600" : ""
                         }
                       >
                         Books
@@ -99,7 +99,7 @@ const Header = () => {
                       <NavLink
                         to="/about"
                         className={({ isActive }) =>
-                          isActive ? "text-blue-600" : ""
+                          isActive ? "text-violet-600" : ""
                         }
                       >
                         About
