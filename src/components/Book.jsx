@@ -10,7 +10,7 @@ const Book = (props) => {
         className="relative shadow-lg hover:shadow-2xl  transition duration-200 hover:-translate-y-2"
       >
         <img
-          className="objcet-cover  w-full h-56 md:h-64 lg:h-80"
+          className="objcet-cover  w-full h-60 md:h-64 lg:h-80"
           src={book.image}
           alt="book image"
         />
